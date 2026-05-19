@@ -36,3 +36,6 @@ The party went well.
 
 `pip install -r requirements.txt`, set up Gmail API credentials, then 
 `python app.py`.
+
+Alternatively, you can check out the live demo here: 
+https://stephanie-wainaina-portfolio.lovable.app/birthday-invite
