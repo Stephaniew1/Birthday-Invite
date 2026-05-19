@@ -1,13 +1,13 @@
 # Birthday Invite
 
-**Live demo:** https://stephanie-wainaina-portfolio.lovable.app/birthday-invite
-
 An interactive web-based invitation app built for a surprise birthday party. 
 Guests open the link, get a "Save the Date" notification, tap through a 
 chatbot-style RSVP flow, and automatically receive an email with a calendar 
 invite attached.
 
 Built before Apple launched Apple Invites on iOS.
+
+**Live demo:** https://stephanie-wainaina-portfolio.lovable.app/birthday-invite
 
 ## How it works
 
