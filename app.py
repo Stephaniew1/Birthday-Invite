@@ -49,7 +49,6 @@ EVENT_DATE = "2025-05-03 13:30:00"  # Format: YYYY-MM-DD HH:MM:SS
 EVENT_LOCATION = "Ankole Grill, Kitusuru"
 EVENT_DURATION = 7  # in hours
 
-# We only need send capability from Gmail
 SCOPES = ["https://www.googleapis.com/auth/gmail.send"]
 
 
@@ -243,8 +242,6 @@ def restore_files_from_env():
         with open("token.json", "wb") as f:
             f.write(base64.urlsafe_b64decode(token_b64))
 
-
-# Call this before you try to load your token files
 restore_files_from_env()
 
 
@@ -327,8 +324,6 @@ def rsvp():
     """
     email = request.args.get("email", "")
     event_name = request.args.get("event", "")
-
-    # Just show a small HTML form or page to choose yes/no/maybe
     return f"""
     <html>
     <head><title>RSVP for {event_name}</title></head>
